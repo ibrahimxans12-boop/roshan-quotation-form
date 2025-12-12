@@ -1,0 +1,50 @@
+2025-12-02T11:52:52.391253132Z     port: 443
+2025-12-02T11:52:52.391255272Z   },
+2025-12-02T11:52:52.391258243Z   [Symbol(kMessage)]: 'connect ECONNREFUSED 10.224.82.230:443'
+2025-12-02T11:52:52.391260823Z }
+2025-12-02T11:52:52.39182125Z 11:52:52 AM [express] GET /api/meals 500 in 6ms :: {"message":"Failed to fetch meals"}
+2025-12-02T11:52:58.22040283Z Error creating meal: aa {
+2025-12-02T11:52:58.220435101Z   [Symbol(kTarget)]: t {
+2025-12-02T11:52:58.220440891Z     _events: [Object: null prototype] {
+2025-12-02T11:52:58.220441371Z 11:52:58 AM [express] POST /api/meals 500 in 13ms :: {"message":"Failed to create meal"}
+2025-12-02T11:52:58.220445751Z       error: [Function],
+2025-12-02T11:52:58.220449632Z       message: [Function],
+2025-12-02T11:52:58.220469762Z       close: [Function],
+2025-12-02T11:52:58.220474642Z       open: [Function]
+2025-12-02T11:52:58.220479223Z     },
+2025-12-02T11:52:58.220483433Z     _eventsCount: 4,
+2025-12-02T11:52:58.220488053Z     _maxListeners: undefined,
+2025-12-02T11:52:58.220491953Z     _binaryType: 'arraybuffer',
+2025-12-02T11:52:58.220495663Z     _closeCode: 1006,
+2025-12-02T11:52:58.220499513Z     _closeFrameReceived: false,
+2025-12-02T11:52:58.220503643Z     _closeFrameSent: false,
+2025-12-02T11:52:58.220507444Z     _closeMessage: <Buffer >,
+2025-12-02T11:52:58.220511473Z     _closeTimer: null,
+2025-12-02T11:52:58.220515554Z     _errorEmitted: true,
+2025-12-02T11:52:58.220519384Z     _extensions: {},
+2025-12-02T11:52:58.220523274Z     _paused: false,
+2025-12-02T11:52:58.220527054Z     _protocol: '',
+2025-12-02T11:52:58.220530984Z     _readyState: 3,
+2025-12-02T11:52:58.220534894Z     _receiver: null,
+2025-12-02T11:52:58.220538954Z     _sender: null,
+2025-12-02T11:52:58.220542794Z     _socket: null,
+2025-12-02T11:52:58.220546675Z     _bufferedAmount: 0,
+2025-12-02T11:52:58.220550555Z     _isServer: false,
+2025-12-02T11:52:58.220554175Z     _redirects: 0,
+2025-12-02T11:52:58.220558095Z     _autoPong: true,
+2025-12-02T11:52:58.220562385Z     _url: 'wss://dpg-d4nctvfdiees73dnorr0-a/v2',
+2025-12-02T11:52:58.220566355Z     _req: null,
+2025-12-02T11:52:58.220570265Z     [Symbol(shapeMode)]: false,
+2025-12-02T11:52:58.220574235Z     [Symbol(kCapture)]: false
+2025-12-02T11:52:58.220578216Z   },
+2025-12-02T11:52:58.220582236Z   [Symbol(kType)]: 'error',
+2025-12-02T11:52:58.220586566Z   [Symbol(kError)]: Error: connect ECONNREFUSED 10.224.82.230:443
+2025-12-02T11:52:58.220590586Z       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+2025-12-02T11:52:58.220594836Z     errno: -111,
+2025-12-02T11:52:58.220598986Z     code: 'ECONNREFUSED',
+2025-12-02T11:52:58.220634817Z     syscall: 'connect',
+2025-12-02T11:52:58.220640978Z     address: '10.224.82.230',
+2025-12-02T11:52:58.220644828Z     port: 443
+2025-12-02T11:52:58.220648828Z   },
+2025-12-02T11:52:58.220667278Z   [Symbol(kMessage)]: 'connect ECONNREFUSED 10.224.82.230:443'
+2025-12-02T11:52:58.220669818Z }

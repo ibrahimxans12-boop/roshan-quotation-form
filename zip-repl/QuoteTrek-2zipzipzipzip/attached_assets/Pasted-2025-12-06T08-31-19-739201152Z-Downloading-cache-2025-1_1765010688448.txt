@@ -1,0 +1,25 @@
+2025-12-06T08:31:19.739201152Z ==> Downloading cache...
+2025-12-06T08:31:19.803108533Z ==> Cloning from https://github.com/ibrahimans719-ctrl/roshanquotationform
+2025-12-06T08:31:27.130243913Z ==> Checking out commit f2c81095d52a3299c9b33e0adf112f50f80cf4aa in branch main
+2025-12-06T08:31:31.780912234Z ==> Downloaded 212MB in 3s. Extraction took 4s.
+2025-12-06T08:31:44.109939946Z ==> Using Node.js version 22.16.0 (default)
+2025-12-06T08:31:44.136131609Z ==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+2025-12-06T08:31:44.266365835Z ==> Running build command 'npm install; npm run build'...
+2025-12-06T08:31:45.171459201Z npm error code ENOENT
+2025-12-06T08:31:45.171617014Z npm error syscall open
+2025-12-06T08:31:45.171751146Z npm error path /opt/render/project/src/package.json
+2025-12-06T08:31:45.171837377Z npm error errno -2
+2025-12-06T08:31:45.171885088Z npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/opt/render/project/src/package.json'
+2025-12-06T08:31:45.171929229Z npm error enoent This is related to npm not being able to find a file.
+2025-12-06T08:31:45.171933389Z npm error enoent
+2025-12-06T08:31:45.172773902Z npm error A complete log of this run can be found in: /opt/render/.cache/_logs/2025-12-06T08_31_44_335Z-debug-0.log
+2025-12-06T08:31:45.324705241Z npm error code ENOENT
+2025-12-06T08:31:45.324889344Z npm error syscall open
+2025-12-06T08:31:45.325027556Z npm error path /opt/render/project/src/package.json
+2025-12-06T08:31:45.325173879Z npm error errno -2
+2025-12-06T08:31:45.325206449Z npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/opt/render/project/src/package.json'
+2025-12-06T08:31:45.32526824Z npm error enoent This is related to npm not being able to find a file.
+2025-12-06T08:31:45.32527216Z npm error enoent
+2025-12-06T08:31:45.326221635Z npm error A complete log of this run can be found in: /opt/render/.cache/_logs/2025-12-06T08_31_45_275Z-debug-0.log
+2025-12-06T08:31:45.367412175Z ==> Build failed 😞
+2025-12-06T08:31:45.367430395Z ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys

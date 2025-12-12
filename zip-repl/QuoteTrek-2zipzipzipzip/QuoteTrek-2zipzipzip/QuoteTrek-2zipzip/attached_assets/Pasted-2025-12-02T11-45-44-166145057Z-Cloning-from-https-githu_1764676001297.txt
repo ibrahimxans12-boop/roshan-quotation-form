@@ -1,0 +1,51 @@
+2025-12-02T11:45:44.166145057Z ==> Cloning from https://github.com/ibrahimans719-ctrl/roshanquotationform
+2025-12-02T11:45:44.756295229Z ==> Checking out commit 13703142f0e31b682a6267f7f719f43f69a79654 in branch main
+2025-12-02T11:45:48.767831474Z ==> Using Node.js version 22.16.0 (default)
+2025-12-02T11:45:48.793668156Z ==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+2025-12-02T11:45:50.791027354Z ==> Running build command 'npm install; npm run build'...
+2025-12-02T11:46:00.081088318Z 
+2025-12-02T11:46:00.081115749Z added 496 packages, and audited 497 packages in 9s
+2025-12-02T11:46:00.08116344Z 
+2025-12-02T11:46:00.081180541Z 68 packages are looking for funding
+2025-12-02T11:46:00.081201251Z   run `npm fund` for details
+2025-12-02T11:46:00.118680538Z 
+2025-12-02T11:46:00.118701028Z 10 vulnerabilities (4 low, 5 moderate, 1 high)
+2025-12-02T11:46:00.118704458Z 
+2025-12-02T11:46:00.118708518Z To address issues that do not require attention, run:
+2025-12-02T11:46:00.118711578Z   npm audit fix
+2025-12-02T11:46:00.118714248Z 
+2025-12-02T11:46:00.118717099Z To address all issues (including breaking changes), run:
+2025-12-02T11:46:00.118720389Z   npm audit fix --force
+2025-12-02T11:46:00.118723109Z 
+2025-12-02T11:46:00.118726299Z Run `npm audit` for details.
+2025-12-02T11:46:00.308803704Z 
+2025-12-02T11:46:00.308823315Z > rest-express@1.0.0 build
+2025-12-02T11:46:00.308827475Z > npm run db:push && tsx script/build.ts
+2025-12-02T11:46:00.308831045Z 
+2025-12-02T11:46:00.417319343Z 
+2025-12-02T11:46:00.417344374Z > rest-express@1.0.0 db:push
+2025-12-02T11:46:00.417354334Z > drizzle-kit push
+2025-12-02T11:46:00.417359304Z 
+2025-12-02T11:46:00.559551233Z No config path provided, using default 'drizzle.config.ts'
+2025-12-02T11:46:00.559788529Z Reading config file '/opt/render/project/src/drizzle.config.ts'
+2025-12-02T11:46:01.475746804Z Using 'pg' driver for database querying
+2025-12-02T11:46:01.744476255Z [⣷] Pulling schema from database...
+2025-12-02T11:46:01.773607978Z [✓] Pulling schema from database...
+2025-12-02T11:46:02.113985508Z [✓] Changes applied
+2025-12-02T11:46:03.118159396Z building client...
+2025-12-02T11:46:03.151060774Z failed to load config from /opt/render/project/src/vite.config.ts
+2025-12-02T11:46:03.151328891Z Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@replit/vite-plugin-runtime-error-modal' imported from /opt/render/project/src/vite.config.ts.timestamp-1764675963140-3e5dfcd477c18.mjs
+2025-12-02T11:46:03.151337752Z     at Object.getPackageJSONURL (node:internal/modules/package_json_reader:256:9)
+2025-12-02T11:46:03.151341422Z     at packageResolve (node:internal/modules/esm/resolve:768:81)
+2025-12-02T11:46:03.151344232Z     at moduleResolve (node:internal/modules/esm/resolve:854:18)
+2025-12-02T11:46:03.151347352Z     at defaultResolve (node:internal/modules/esm/resolve:984:11)
+2025-12-02T11:46:03.151350052Z     at nextResolve (node:internal/modules/esm/hooks:748:28)
+2025-12-02T11:46:03.151353142Z     at resolveBase (file:///opt/render/project/src/node_modules/tsx/dist/esm/index.mjs?1764675962278:2:3744)
+2025-12-02T11:46:03.151356532Z     at resolveDirectory (file:///opt/render/project/src/node_modules/tsx/dist/esm/index.mjs?1764675962278:2:4243)
+2025-12-02T11:46:03.151368043Z     at resolveTsPaths (file:///opt/render/project/src/node_modules/tsx/dist/esm/index.mjs?1764675962278:2:4984)
+2025-12-02T11:46:03.151369993Z     at async resolve (file:///opt/render/project/src/node_modules/tsx/dist/esm/index.mjs?1764675962278:2:5355)
+2025-12-02T11:46:03.151372383Z     at async nextResolve (node:internal/modules/esm/hooks:748:22) {
+2025-12-02T11:46:03.151375803Z   code: 'ERR_MODULE_NOT_FOUND'
+2025-12-02T11:46:03.151378823Z }
+2025-12-02T11:46:03.295428164Z ==> Build failed 😞
+2025-12-02T11:46:03.295443834Z ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys

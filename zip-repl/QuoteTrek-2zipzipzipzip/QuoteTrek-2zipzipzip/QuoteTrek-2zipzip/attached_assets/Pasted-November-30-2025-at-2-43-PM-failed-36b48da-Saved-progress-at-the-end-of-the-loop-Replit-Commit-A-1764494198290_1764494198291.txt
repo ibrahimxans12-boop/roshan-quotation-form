@@ -1,0 +1,59 @@
+November 30, 2025 at 2:43 PM
+failed
+36b48da
+Saved progress at the end of the loop Replit-Commit-Author: Agent Replit-Commit-Session-Id: 039cd2d3-062c-4c4f-94aa-1866ce5166aa Replit-Commit-Checkpoint-Type: full_checkpoint Replit-Commit-Event-Id: 0579730f-27a0-472c-a438-0c119e483753 Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/dda1d398-d618-47c3-a80d-1138f3e5e726/039cd2d3-062c-4c4f-94aa-1866ce5166aa/3SbOXTJ
+
+Rollback
+Exited with status 1 while running your code.
+Read our docs for common ways to troubleshoot your deploy.
+
+All logs
+Search
+Search
+
+Live tail
+GMT+5:30
+
+Menu
+
+==> Cloning from https://github.com/ibrahimans2006/quotation-management-system
+==> Checking out commit 36b48da63b5023bed421900171806979cba6b443 in branch main
+==> Using Node.js version 22.16.0 (default)
+==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+==> Running build command 'npm install'...
+added 517 packages, and audited 518 packages in 11s
+68 packages are looking for funding
+  run `npm fund` for details
+9 vulnerabilities (3 low, 5 moderate, 1 high)
+To address issues that do not require attention, run:
+  npm audit fix
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+Run `npm audit` for details.
+==> Uploading build...
+==> Uploaded in 5.9s. Compression took 3.5s
+==> Build successful 🎉
+==> Deploying...
+Node.js v22.16.0
+==> Exited with status 1
+==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+==> Running 'npm run dev'
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+Sun, 30 Nov 2025 09:15:17 GMT express-session deprecated req.secret; provide secret option at file:/opt/render/project/src/server/replitAuth.ts:1:761
+file:///opt/render/project/src/node_modules/openid-client/build/index.js:89
+    const err = new TypeError(message, { cause });
+                ^
+TypeError: "clientId" must be a non-empty string
+    at CodedTypeError (/opt/render/project/src/node_modules/openid-client/src/index.ts:839:15)
+    at new Configuration (/opt/render/project/src/node_modules/openid-client/src/index.ts:1849:13)
+    at Module.discovery (/opt/render/project/src/node_modules/openid-client/src/index.ts:1281:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async memoize.maxAge (/opt/render/project/src/server/replitAuth.ts:13:12)
+    at async setupAuth (/opt/render/project/src/server/replitAuth.ts:71:18)
+    at async registerRoutes (/opt/render/project/src/server/routes.ts:16:3)
+    at async <anonymous> (/opt/render/project/src/server/index.ts:64:3) {
+  code: 'ERR_INVALID_ARG_TYPE',
+  [cause]: undefined
+}
+Node.js v22.16.0

@@ -1,0 +1,326 @@
+Create a complete end-to-end Quotation Management System for “Roshan Tours & Travels” using:
+
+PHP 8+ (Core backend, MVC or modular architecture)
+
+MySQL (normalized schema, FK-controlled)
+
+TailwindCSS (UI)
+
+jQuery (dynamic forms + UI interactivity)
+
+DOMPDF or mPDF (for PDF generation)
+
+Deliver a production-ready codebase with clean structure, reusable modules, and documented workflows.
+
+1. CORE MODULES
+
+Build the following:
+
+1) Admin Authentication
+
+Admin login
+
+Session management
+
+Password hashing
+
+Role: super admin
+
+2) Master Data Management (PHP CRUD + MySQL)
+
+Create CRUD modules for:
+
+Hotels
+
+Transport
+
+Meals
+
+Visa
+
+Laundry
+
+Optional Add-ons
+
+Exchange Rates
+
+Service Charges
+
+All modules must include:
+
+Add
+
+Edit
+
+Delete
+
+Status enable/disable
+
+Auto-sync with quotation builder
+
+3) Quotation Builder
+
+A dynamic PHP form that:
+
+Accepts traveler details (adults, children, infants)
+
+Accepts travel type
+
+Accepts hotel selection for Makkah & Madina
+
+Auto-calculates per person pricing based on master tables
+
+Auto applies infant & child pricing rules
+
+Generates final quotation text (WordPress-style template)
+
+Supports editing saved quotations
+
+4) PDF Module
+
+Implement using DOMPDF/mPDF:
+
+Render formatted quotation page
+
+Convert to PDF
+
+Download PDF
+
+Save PDF to server
+
+Attach PDF reference to MySQL quotation entry
+
+Print-ready layout
+
+2. FUNCTIONAL BUSINESS LOGIC
+Travel Types
+
+Umrah
+
+Ramadan Umrah
+
+International packages
+
+Domestic packages
+
+People Logic
+
+Adults – full pricing
+Child Fare (without bed) – includes visa, ticket, meal, laundry, transport, service charge
+Infant (0–2) – free: ticket, visa, service charge
+
+Hotel Pricing (Two Locations)
+
+For both Makkah & Madina:
+
+Number of days
+
+Hotel name selection
+
+Meal plan
+
+Laundry inclusion
+
+Per person cost auto-multiply by days
+
+Auto divide by total number of people
+
+Meal Plan Dropdown
+
+Breakfast
+
+Half Board
+
+Full Board
+
+Room Only
+
+Transportation Logic
+
+Include all routes below as dynamic selectable items:
+
+Harmain Train (Jeddah → Makkah → Madina → Jeddah)
+
+Jeddah → Makkah
+
+Makkah Ziyarat
+
+Makkah → Taif Ziyarat
+
+Makkah → Madina
+
+Madina Ziyarat
+
+Badar Ziyarat
+
+Madina → Airport
+
+Madina → Madina Airport
+
+Madina → Jeddah Airport
+
+Vehicle Types
+
+Sedan
+
+GMC
+
+Hiace 7-seater
+
+Hiace 12-seater
+
+Transport Calculation Rules
+
+Divide transport cost by number of travelers
+
+If travelers > vehicle capacity → auto-multiply vehicle count
+
+All transport prices pulled from master table
+
+Optional Add-ons
+
+Complimentary Kit
+
+Zam Zam
+
+Laundry
+
+Any custom items from master
+
+Visa + Service Charges
+
+Pulled from master
+
+Auto-applied per traveler category
+
+3. CURRENCY ENGINE
+
+Master-configured exchange rates for:
+
+SAR ↔ INR
+
+SAR ↔ GBP
+
+Auto-calculate:
+
+Total package in SAR
+
+Total in INR
+
+Total in GBP
+
+Per person cost in all currencies
+
+4. DATABASE REQUIREMENTS (MYSQL)
+
+Create normalized tables for:
+
+admins
+
+quotations
+
+quotation_items
+
+hotels
+
+meals
+
+visa
+
+transport
+
+laundry
+
+addons
+
+exchange_rates
+
+service_charges
+
+pdf_storage
+
+Include:
+
+Foreign keys
+
+Indexes
+
+Created/updated timestamps
+
+5. OUTPUT DELIVERABLES
+
+Replit must provide:
+
+Complete PHP project
+
+folder structure (controllers, models, views, assets, includes)
+
+All CRUD PHP pages
+
+All SQL table creation scripts
+
+Quotation builder UI (Tailwind + jQuery)
+
+PDF generator module
+
+Save/Edit quotation module
+
+Route map
+
+config.php with DB constants
+
+Autoloading structure
+
+Secure form validation
+
+6. REQUIRED UI PAGES
+
+Admin Login
+
+Dashboard
+
+Master Data Pages (Hotels / Transport / Meals / Visa / Add-ons / Exchange Rates)
+
+Quotation Form
+
+Quotation List
+
+Quotation PDF Preview
+
+PDF Print Page
+
+Each must be Tailwind-based.
+
+7. QUOTATION OUTPUT TEMPLATE
+
+Generate a WP-style formatted text output including:
+
+Travel type
+
+Passenger summary
+
+Hotel details (Makkah & Madina)
+
+Transport itinerary
+
+Meal plan
+
+Add-ons
+
+Currency conversions
+
+Total per person & total package pricing
+
+8. EXPECTED REPLIT DELIVERY
+
+Fully working PHP code
+
+Fully working CRUD admin panel
+
+Fully working quotation builder
+
+Fully working PDF system
+
+All calculations fully mapped
+
+Project ready for deployment

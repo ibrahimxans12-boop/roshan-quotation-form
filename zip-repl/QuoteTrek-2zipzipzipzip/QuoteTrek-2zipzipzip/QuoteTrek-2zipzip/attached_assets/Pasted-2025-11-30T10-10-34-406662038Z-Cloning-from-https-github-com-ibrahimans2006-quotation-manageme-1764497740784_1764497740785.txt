@@ -1,0 +1,56 @@
+2025-11-30T10:10:34.406662038Z ==> Cloning from https://github.com/ibrahimans2006/quotation-management-system
+2025-11-30T10:10:34.974984039Z ==> Checking out commit 268a0815a8101b3303c3491dd7e4948f5d507540 in branch main
+2025-11-30T10:10:36.443713441Z ==> Using Node.js version 22.16.0 (default)
+2025-11-30T10:10:36.468704338Z ==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+2025-11-30T10:10:38.376153826Z ==> Running build command 'npm install'...
+2025-11-30T10:10:46.417298584Z 
+2025-11-30T10:10:46.417323145Z added 517 packages, and audited 518 packages in 8s
+2025-11-30T10:10:46.417336466Z 
+2025-11-30T10:10:46.417342436Z 68 packages are looking for funding
+2025-11-30T10:10:46.417355376Z   run `npm fund` for details
+2025-11-30T10:10:46.437065698Z 
+2025-11-30T10:10:46.437085749Z 9 vulnerabilities (3 low, 5 moderate, 1 high)
+2025-11-30T10:10:46.437091889Z 
+2025-11-30T10:10:46.437098299Z To address issues that do not require attention, run:
+2025-11-30T10:10:46.43710285Z   npm audit fix
+2025-11-30T10:10:46.43710625Z 
+2025-11-30T10:10:46.43710976Z To address all issues (including breaking changes), run:
+2025-11-30T10:10:46.4371136Z   npm audit fix --force
+2025-11-30T10:10:46.43711701Z 
+2025-11-30T10:10:46.4371211Z Run `npm audit` for details.
+2025-11-30T10:10:49.534146073Z ==> Uploading build...
+2025-11-30T10:10:58.698553327Z ==> Uploaded in 5.7s. Compression took 3.4s
+2025-11-30T10:10:58.731138379Z ==> Build successful 🎉
+2025-11-30T10:11:01.377302226Z ==> Deploying...
+2025-11-30T10:11:30.970529405Z ==> Running 'npm run dev'
+2025-11-30T10:11:31.973605423Z 
+2025-11-30T10:11:31.973623574Z > rest-express@1.0.0 dev
+2025-11-30T10:11:31.973627584Z > NODE_ENV=development tsx server/index.ts
+2025-11-30T10:11:31.973629294Z 
+2025-11-30T10:11:45.769527806Z Replit Auth not available, skipping authentication setup
+2025-11-30T10:11:57.362973623Z 10:11:57 AM [express] serving on port 10000
+2025-11-30T10:11:59.719171701Z ==> Your service is live 🎉
+2025-11-30T10:11:59.755935908Z ==> 
+2025-11-30T10:11:59.790786235Z ==> ///////////////////////////////////////////////////////////
+2025-11-30T10:11:59.821871252Z ==> 
+2025-11-30T10:11:59.858543519Z ==> Available at your primary URL https://quotation-management-system.onrender.com
+2025-11-30T10:11:59.891808066Z ==> 
+2025-11-30T10:11:59.927247092Z ==> ///////////////////////////////////////////////////////////
+2025-11-30T10:12:21.171768125Z 
+2025-11-30T10:12:21.171798386Z A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+2025-11-30T10:13:09.998620547Z ==> Running 'npm run dev'
+2025-11-30T10:13:11.104877815Z 
+2025-11-30T10:13:11.104900585Z > rest-express@1.0.0 dev
+2025-11-30T10:13:11.104906315Z > NODE_ENV=development tsx server/index.ts
+2025-11-30T10:13:11.104908685Z 
+2025-11-30T10:13:24.610917865Z Replit Auth not available, skipping authentication setup
+2025-11-30T10:13:36.811974134Z 10:13:36 AM [express] serving on port 10000
+2025-11-30T10:13:59.700920486Z 
+2025-11-30T10:13:59.700958567Z A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+2025-11-30T10:15:00.970411133Z ==> Running 'npm run dev'
+2025-11-30T10:15:02.161832156Z 
+2025-11-30T10:15:02.161859717Z > rest-express@1.0.0 dev
+2025-11-30T10:15:02.161864107Z > NODE_ENV=development tsx server/index.ts
+2025-11-30T10:15:02.161866257Z 
+2025-11-30T10:15:14.770298198Z Replit Auth not available, skipping authentication setup
+2025-11-30T10:15:26.373230249Z 10:15:26 AM [express] serving on port 10000
