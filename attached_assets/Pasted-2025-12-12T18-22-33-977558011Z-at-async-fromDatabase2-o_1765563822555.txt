@@ -1,0 +1,55 @@
+2025-12-12T18:22:33.977558011Z     at async fromDatabase2 (/opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/node_modules/drizzle-kit/bin.cjs:19253:25) {
+2025-12-12T18:22:33.977561691Z   length: 37,
+2025-12-12T18:22:33.977565421Z   severity: 'FATAL',
+2025-12-12T18:22:33.977569071Z   code: '28000',
+2025-12-12T18:22:33.977572691Z   detail: undefined,
+2025-12-12T18:22:33.977576222Z   hint: undefined,
+2025-12-12T18:22:33.977579772Z   position: undefined,
+2025-12-12T18:22:33.977583882Z   internalPosition: undefined,
+2025-12-12T18:22:33.977587632Z   internalQuery: undefined,
+2025-12-12T18:22:33.977599222Z   where: undefined,
+2025-12-12T18:22:33.977601552Z   schema: undefined,
+2025-12-12T18:22:33.977603692Z   table: undefined,
+2025-12-12T18:22:33.977605832Z   column: undefined,
+2025-12-12T18:22:33.977607952Z   dataType: undefined,
+2025-12-12T18:22:33.977610372Z   constraint: undefined,
+2025-12-12T18:22:33.977612542Z   file: undefined,
+2025-12-12T18:22:33.977614772Z   line: undefined,
+2025-12-12T18:22:33.977617032Z   routine: undefined
+2025-12-12T18:22:33.977619203Z }
+2025-12-12T18:22:34.838173445Z building client...
+2025-12-12T18:22:34.903081625Z vite v5.4.20 building for production...
+2025-12-12T18:22:35.380807157Z transforming...
+2025-12-12T18:22:36.226351219Z 
+2025-12-12T18:22:36.22637817Z A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+2025-12-12T18:22:41.540285423Z ✓ 2134 modules transformed.
+2025-12-12T18:22:41.855868167Z rendering chunks...
+2025-12-12T18:22:42.149664311Z computing gzip size...
+2025-12-12T18:22:42.167568769Z ../dist/public/index.html                            1.35 kB │ gzip:   0.60 kB
+2025-12-12T18:22:42.167602879Z ../dist/public/assets/index-BzbbC2xY.css            74.50 kB │ gzip:  12.17 kB
+2025-12-12T18:22:42.16765303Z ../dist/public/assets/purify.es-sOfw8HaZ.js         22.67 kB │ gzip:   8.79 kB
+2025-12-12T18:22:42.167695891Z ../dist/public/assets/index.es-Bo1-mfxe.js         150.59 kB │ gzip:  51.53 kB
+2025-12-12T18:22:42.167748202Z ../dist/public/assets/html2canvas.esm-CBrSDip1.js  201.42 kB │ gzip:  48.03 kB
+2025-12-12T18:22:42.167888125Z ../dist/public/assets/jspdf.es.min-FykjrEIs.js     413.70 kB │ gzip: 135.03 kB
+2025-12-12T18:22:42.168047979Z ../dist/public/assets/index-CSTp7NiU.js            590.55 kB │ gzip: 161.57 kB
+2025-12-12T18:22:42.168181771Z 
+2025-12-12T18:22:42.168186882Z (!) Some chunks are larger than 500 kB after minification. Consider:
+2025-12-12T18:22:42.168190482Z - Using dynamic import() to code-split the application
+2025-12-12T18:22:42.168195552Z - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+2025-12-12T18:22:42.168198482Z - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+2025-12-12T18:22:42.168450177Z ✓ built in 6.82s
+2025-12-12T18:22:42.16860184Z building server...
+2025-12-12T18:22:42.643046672Z 
+2025-12-12T18:22:42.643071743Z   dist/index.cjs  1018.1kb
+2025-12-12T18:22:42.643076663Z 
+2025-12-12T18:22:42.643080893Z ⚡ Done in 397ms
+2025-12-12T18:22:51.931203291Z ==> Uploading build...
+2025-12-12T18:23:03.318838391Z ==> Uploaded in 5.8s. Compression took 5.6s
+2025-12-12T18:23:03.373448035Z ==> Build successful 🎉
+2025-12-12T18:23:11.895200776Z ==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance
+2025-12-12T18:23:11.912662465Z ==> Deploying...
+2025-12-12T18:23:36.358702706Z ==> Running 'npm run start'
+2025-12-12T18:23:37.367010417Z 
+2025-12-12T18:23:37.367036167Z > rest-express@1.0.0 start
+2025-12-12T18:23:37.367041497Z > NODE_ENV=production node dist/index.cjs
+2025-12-12T18:23:37.367044367Z 
