@@ -1,0 +1,75 @@
+2025-12-12T18:18:23.370197291Z 6:18:23 PM [express] POST /api/hotels 500 in 39ms :: {"message":"Failed to create hotel"}
+2025-12-12T18:18:30.182428013Z Error creating hotel: error: SSL/TLS required
+2025-12-12T18:18:30.182476876Z     at /opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/node_modules/pg-pool/index.js:45:11
+2025-12-12T18:18:30.182481556Z     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-12T18:18:30.182483826Z     at async /opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/dist/index.cjs:75:32548
+2025-12-12T18:18:30.182488726Z     at async Ll.createHotel (/opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/dist/index.cjs:75:108322)
+2025-12-12T18:18:30.182491117Z     at async /opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/dist/index.cjs:75:115241 {
+2025-12-12T18:18:30.182493327Z   length: 37,
+2025-12-12T18:18:30.182496177Z   severity: 'FATAL',
+2025-12-12T18:18:30.182498317Z   code: '28000',
+2025-12-12T18:18:30.182500547Z   detail: undefined,
+2025-12-12T18:18:30.182503058Z   hint: undefined,
+2025-12-12T18:18:30.182504947Z   position: undefined,
+2025-12-12T18:18:30.182507548Z   internalPosition: undefined,
+2025-12-12T18:18:30.182509458Z   internalQuery: undefined,
+2025-12-12T18:18:30.182511368Z   where: undefined,
+2025-12-12T18:18:30.182513398Z   schema: undefined,
+2025-12-12T18:18:30.182515368Z   table: undefined,
+2025-12-12T18:18:30.182517328Z   column: undefined,
+2025-12-12T18:18:30.182519408Z   dataType: undefined,
+2025-12-12T18:18:30.182521448Z   constraint: undefined,
+2025-12-12T18:18:30.182523589Z   file: undefined,
+2025-12-12T18:18:30.182525819Z   line: undefined,
+2025-12-12T18:18:30.182527799Z   routine: undefined
+2025-12-12T18:18:30.182530019Z }
+2025-12-12T18:18:30.183660499Z 6:18:30 PM [express] POST /api/hotels 500 in 39ms :: {"message":"Failed to create hotel"}
+2025-12-12T18:18:31.748373597Z Error fetching transport: error: SSL/TLS required
+2025-12-12T18:18:31.748393378Z     at /opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/node_modules/pg-pool/index.js:45:11
+2025-12-12T18:18:31.748396638Z     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-12T18:18:31.748399098Z     at async /opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/dist/index.cjs:75:32548
+2025-12-12T18:18:31.748399558Z 6:18:31 PM [express] GET /api/transport 500 in 34ms :: {"message":"Failed to fetch transport"}
+2025-12-12T18:18:31.748402419Z     at async /opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/dist/index.cjs:75:115957 {
+2025-12-12T18:18:31.748407579Z   length: 37,
+2025-12-12T18:18:31.748410579Z   severity: 'FATAL',
+2025-12-12T18:18:31.748415059Z   code: '28000',
+2025-12-12T18:18:31.74841755Z   detail: undefined,
+2025-12-12T18:18:31.74842Z   hint: undefined,
+2025-12-12T18:18:31.74843368Z   position: undefined,
+2025-12-12T18:18:31.748436701Z   internalPosition: undefined,
+2025-12-12T18:18:31.748439551Z   internalQuery: undefined,
+2025-12-12T18:18:31.748442281Z   where: undefined,
+2025-12-12T18:18:31.748445021Z   schema: undefined,
+2025-12-12T18:18:31.748446831Z   table: undefined,
+2025-12-12T18:18:31.748448521Z   column: undefined,
+2025-12-12T18:18:31.748450161Z   dataType: undefined,
+2025-12-12T18:18:31.748451802Z   constraint: undefined,
+2025-12-12T18:18:31.748453462Z   file: undefined,
+2025-12-12T18:18:31.748455172Z   line: undefined,
+2025-12-12T18:18:31.748456932Z   routine: undefined
+2025-12-12T18:18:31.748458622Z }
+2025-12-12T18:18:36.429572363Z Error creating transport: error: SSL/TLS required
+2025-12-12T18:18:36.429606554Z     at /opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/node_modules/pg-pool/index.js:45:11
+2025-12-12T18:18:36.429611355Z     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-12T18:18:36.429614205Z     at async /opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/dist/index.cjs:75:32548
+2025-12-12T18:18:36.429617945Z     at async Ll.createTransport (/opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/dist/index.cjs:75:108752)
+2025-12-12T18:18:36.429620875Z     at async /opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/dist/index.cjs:75:116448 {
+2025-12-12T18:18:36.429623215Z   length: 37,
+2025-12-12T18:18:36.429625976Z   severity: 'FATAL',
+2025-12-12T18:18:36.429627706Z   code: '28000',
+2025-12-12T18:18:36.429629446Z   detail: undefined,
+2025-12-12T18:18:36.429631146Z   hint: undefined,
+2025-12-12T18:18:36.429632986Z   position: undefined,
+2025-12-12T18:18:36.429635476Z   internalPosition: undefined,
+2025-12-12T18:18:36.429637136Z   internalQuery: undefined,
+2025-12-12T18:18:36.429639056Z   where: undefined,
+2025-12-12T18:18:36.429640857Z   schema: undefined,
+2025-12-12T18:18:36.429642607Z   table: undefined,
+2025-12-12T18:18:36.429644297Z   column: undefined,
+2025-12-12T18:18:36.429645957Z   dataType: undefined,
+2025-12-12T18:18:36.429647597Z   constraint: undefined,
+2025-12-12T18:18:36.429649247Z   file: undefined,
+2025-12-12T18:18:36.429650917Z   line: undefined,
+2025-12-12T18:18:36.429652637Z   routine: undefined
+2025-12-12T18:18:36.429654377Z }
+2025-12-12T18:18:36.431192172Z 6:18:36 PM [express] POST /api/transport 500 in 38ms :: {"message":"Failed to create transport"}
