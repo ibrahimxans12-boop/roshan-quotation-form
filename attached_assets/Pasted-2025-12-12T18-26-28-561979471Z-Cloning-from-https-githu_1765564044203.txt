@@ -1,0 +1,84 @@
+2025-12-12T18:26:28.561979471Z ==> Cloning from https://github.com/ibrahimxans12-boop/roshan-quotation-form
+2025-12-12T18:26:29.431652845Z ==> Checking out commit 5ee4403c5e11d18d2d1b7a06529ff0ee16c0f1c1 in branch main
+2025-12-12T18:26:32.748821294Z ==> Using Node.js version 22.16.0 (default)
+2025-12-12T18:26:32.791263162Z ==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+2025-12-12T18:26:35.508305914Z ==> Running build command 'npm install && npm run build'...
+2025-12-12T18:26:48.616503113Z 
+2025-12-12T18:26:48.616538474Z added 497 packages, and audited 498 packages in 13s
+2025-12-12T18:26:48.616545834Z 
+2025-12-12T18:26:48.616566355Z 68 packages are looking for funding
+2025-12-12T18:26:48.616573705Z   run `npm fund` for details
+2025-12-12T18:26:48.653143901Z 
+2025-12-12T18:26:48.653168922Z 9 vulnerabilities (3 low, 5 moderate, 1 high)
+2025-12-12T18:26:48.653173552Z 
+2025-12-12T18:26:48.653178622Z To address issues that do not require attention, run:
+2025-12-12T18:26:48.653182742Z   npm audit fix
+2025-12-12T18:26:48.653186762Z 
+2025-12-12T18:26:48.653190632Z To address all issues (including breaking changes), run:
+2025-12-12T18:26:48.653195453Z   npm audit fix --force
+2025-12-12T18:26:48.653199102Z 
+2025-12-12T18:26:48.653203633Z Run `npm audit` for details.
+2025-12-12T18:26:48.953779703Z 
+2025-12-12T18:26:48.953810644Z > rest-express@1.0.0 build
+2025-12-12T18:26:48.953818694Z > npm run db:push && tsx script/build.ts
+2025-12-12T18:26:48.953824214Z 
+2025-12-12T18:26:49.088662575Z 
+2025-12-12T18:26:49.088693315Z > rest-express@1.0.0 db:push
+2025-12-12T18:26:49.088699665Z > drizzle-kit push
+2025-12-12T18:26:49.088703726Z 
+2025-12-12T18:26:49.247983402Z No config path provided, using default 'drizzle.config.ts'
+2025-12-12T18:26:49.248270308Z Reading config file '/opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/drizzle.config.ts'
+2025-12-12T18:26:49.939144306Z Using 'pg' driver for database querying
+2025-12-12T18:26:50.164903008Z [⣷] Pulling schema from database...
+2025-12-12T18:26:50.212319459Z error: SSL/TLS required
+2025-12-12T18:26:50.212340709Z     at /opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/node_modules/pg-pool/index.js:45:11
+2025-12-12T18:26:50.21234909Z     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-12T18:26:50.21235394Z     at async Object.query (/opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/node_modules/drizzle-kit/bin.cjs:80601:26)
+2025-12-12T18:26:50.21235758Z     at async fromDatabase2 (/opt/render/project/src/zip-repl/QuoteTrek-2zipzipzipzip/QuoteTrek-2zipzipzip/QuoteTrek-2zipzip/node_modules/drizzle-kit/bin.cjs:19253:25) {
+2025-12-12T18:26:50.21236158Z   length: 37,
+2025-12-12T18:26:50.21236525Z   severity: 'FATAL',
+2025-12-12T18:26:50.21236894Z   code: '28000',
+2025-12-12T18:26:50.21237249Z   detail: undefined,
+2025-12-12T18:26:50.21237601Z   hint: undefined,
+2025-12-12T18:26:50.21237955Z   position: undefined,
+2025-12-12T18:26:50.21238385Z   internalPosition: undefined,
+2025-12-12T18:26:50.212387381Z   internalQuery: undefined,
+2025-12-12T18:26:50.212409821Z   where: undefined,
+2025-12-12T18:26:50.212413821Z   schema: undefined,
+2025-12-12T18:26:50.212417221Z   table: undefined,
+2025-12-12T18:26:50.212420641Z   column: undefined,
+2025-12-12T18:26:50.212423771Z   dataType: undefined,
+2025-12-12T18:26:50.212427051Z   constraint: undefined,
+2025-12-12T18:26:50.212430751Z   file: undefined,
+2025-12-12T18:26:50.212434121Z   line: undefined,
+2025-12-12T18:26:50.212437471Z   routine: undefined
+2025-12-12T18:26:50.212440531Z }
+2025-12-12T18:26:51.146528103Z building client...
+2025-12-12T18:26:51.210478946Z vite v5.4.20 building for production...
+2025-12-12T18:26:51.828420415Z transforming...
+2025-12-12T18:26:52.94192644Z 
+2025-12-12T18:26:52.9419484Z A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+2025-12-12T18:26:58.899475261Z ✓ 2134 modules transformed.
+2025-12-12T18:26:59.2333027Z rendering chunks...
+2025-12-12T18:26:59.831996231Z computing gzip size...
+2025-12-12T18:26:59.864197048Z ../dist/public/index.html                            1.35 kB │ gzip:   0.60 kB
+2025-12-12T18:26:59.864281369Z ../dist/public/assets/index-BzbbC2xY.css            74.50 kB │ gzip:  12.17 kB
+2025-12-12T18:26:59.864416472Z ../dist/public/assets/purify.es-sOfw8HaZ.js         22.67 kB │ gzip:   8.79 kB
+2025-12-12T18:26:59.864452813Z ../dist/public/assets/index.es-Bo1-mfxe.js         150.59 kB │ gzip:  51.53 kB
+2025-12-12T18:26:59.864469233Z ../dist/public/assets/html2canvas.esm-CBrSDip1.js  201.42 kB │ gzip:  48.03 kB
+2025-12-12T18:26:59.864523394Z ../dist/public/assets/jspdf.es.min-FykjrEIs.js     413.70 kB │ gzip: 135.03 kB
+2025-12-12T18:26:59.864535715Z ../dist/public/assets/index-CSTp7NiU.js            590.55 kB │ gzip: 161.57 kB
+2025-12-12T18:26:59.864706078Z 
+2025-12-12T18:26:59.864715298Z (!) Some chunks are larger than 500 kB after minification. Consider:
+2025-12-12T18:26:59.864720398Z - Using dynamic import() to code-split the application
+2025-12-12T18:26:59.864725409Z - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+2025-12-12T18:26:59.864732869Z - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+2025-12-12T18:26:59.865086196Z ✓ built in 8.07s
+2025-12-12T18:26:59.865216909Z building server...
+2025-12-12T18:27:00.056759163Z 
+2025-12-12T18:27:00.056783844Z   dist/index.cjs  1018.1kb
+2025-12-12T18:27:00.056788114Z 
+2025-12-12T18:27:00.056792444Z ⚡ Done in 165ms
+2025-12-12T18:27:02.944980932Z ==> Uploading build...
+2025-12-12T18:27:12.165457095Z ==> Uploaded in 5.0s. Compression took 4.2s
+2025-12-12T18:27:12.21016868Z ==> Build successful 🎉
